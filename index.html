@@ -553,7 +553,8 @@
                     margin: 45,
                     dots: false,
                     autoplay: true,
-                    smartSpeed: 1000,
+                    autoplayTimeout: 1500, // بدل 5000 مثلاً، يخلي الصور تتحرك كل 1.5 ثانية
+                    smartSpeed: 500,       // يخلي حركة الانتقال أسرع
                     rtl: document.documentElement.dir === 'rtl',
                     responsive: {
                         0: { items: 2 },
