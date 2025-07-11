@@ -228,7 +228,17 @@ h6,
     color: var(--primary) !important;
     font-weight: bold;
   }
-
+/*my*/
+.navbar-brand {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  .navbar-brand img {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  
 /*** Carousel ***/
 .carousel-caption {
     top: 0;
