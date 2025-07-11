@@ -5,12 +5,16 @@ body.rtl .contact-icon {
 .contact-icon {
     margin-inline-end: 0.75rem;
 }
+
+.keep-ltr {
+    direction: ltr !important;
+  }
 /********** Template CSS **********/
 :root {
     --primary: #06A3DA;
     --secondary: #34AD54;
     --light: #EEF9FF;
-    --dark: #091E3E;
+    --dark: #091E3E;/*091E3E*/
 }
 
 
@@ -231,7 +235,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+    background: rgba(48, 69, 83, 0.7);/*rgba(9, 30, 62, .7)*/
     z-index: 1;
 }
 
